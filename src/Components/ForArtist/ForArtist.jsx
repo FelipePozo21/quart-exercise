@@ -1,4 +1,4 @@
-import disc from "../../../icons/disc.svg";
+import disc from "../../icons/disc.svg";
 
 export function ForArtist() {
   return (
@@ -24,14 +24,14 @@ export function ForArtist() {
           <div>
             <img
               className="w-[600px] h-[750px] absolute top-[140px] right-[450px] rotate-12 z-10"
-              src="../../../../public/assets/qrates-photo-1.avif"
+              src="../../../public/assets/qrates-photo-1.avif"
               alt=""
             />
           </div>
           <div>
             <img
               className="w-[600px] h-[750px] absolute -rotate-12 left-[360px] bottom-16"
-              src="../../../../public/assets/qrates-photo-2.avif"
+              src="../../../public/assets/qrates-photo-2.avif"
               alt=""
             />
           </div>
