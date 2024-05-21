@@ -1,3 +1,6 @@
+import { You1 } from "./You1/You1";
+import { You2 } from "./You2/You2";
+
 export function You() {
   return (
     <div className="bg-[#E4E5DE] h-full w-full flex flex-col items-end ">
@@ -13,6 +16,8 @@ export function You() {
           Artist Toolkit
         </p>
       </div>
+      <You1 />
+      <You2 />
     </div>
   );
 }
