@@ -1,0 +1,17 @@
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      animation: {
+        'rotate': 'rotate-nav 0.3s ease-in-out'
+      },
+      fontFamily: {
+        'noto': ["Noto Sans", "sans-serif"]
+      }
+    },
+  },
+  plugins: [],
+}
