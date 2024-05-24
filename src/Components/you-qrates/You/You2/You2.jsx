@@ -1,6 +1,8 @@
+import { RxCaretDown } from "react-icons/rx";
+
 export function You2() {
   return (
-    <div className="mr-20 text-right w-[590px]">
+    <div className="mr-20 text-right w-[590px] relative">
       <h3 className="font-bold text-3xl mb-2">Start a Qrates page,</h3>
       <h3 className="font-bold text-3xl ">
         confirm and pay for production cost.
@@ -24,6 +26,14 @@ export function You2() {
         src="../../../../public/assets/qrates-photo-12.avif"
         alt=""
       />
+      <div className="bg-black absolute w-[6px] top-0 -right-[84px] h-[740px]">
+        <div className="absolute top-0 text-7xl -right-[42px]">
+          <p className="border-4 border-black px-6 py-2  bg-white rounded-full">
+            2
+          </p>
+        </div>
+        <RxCaretDown size={60} className="absolute -bottom-6 -left-[28px]" />
+      </div>
     </div>
   );
 }
